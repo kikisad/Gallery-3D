@@ -1,0 +1,6 @@
+Sitemap: https://www.object.wtf/api/posts-sitemap
+
+User-agent: *
+Allow: /*
+
+Disallow: /api/*
