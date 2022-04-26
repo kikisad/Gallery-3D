@@ -38,7 +38,7 @@ export default function Gallery({ images }: { images: Image[] }) {
 
       <div className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-        <img src='/logo.svg' alt='next' />
+        <Image src="/logo.svg" layout='fixed' width={40} height={40} alt='Logo-Object' />
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <div className="col-span-3  lg:pr-96 md:pr-28">
