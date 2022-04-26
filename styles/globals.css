@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "EditorialNew-Regular";
+    src: url("/fonts/EditorialNew-Regular.otf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+@layer base {
+    html {
+      font-family: EditorialNew-Regular;
+    }
+  }
+
+.bg-gradient {
+  background: linear-gradient(109.23deg, #B4C6F9 -5.98%, #E6E6E6 42.17%, #FFE8BA 62.43%, #C5B18A 126.5%, #FFAA00 126.52%);
+opacity: 0.9;
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 60s ease infinite;
+    -moz-animation: AnimationName 60s ease infinite;
+    animation: AnimationName 60s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 40%}
+    50%{background-position:100% 61%}
+    100%{background-position:0% 40%}
+}
