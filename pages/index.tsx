@@ -38,7 +38,7 @@ export default function Gallery({ images }: { images: Image[] }) {
 
       <div className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-        <Image src="/logo.svg" layout='fixed' width={40} height={40} alt='Logo-Object' />
+        <Image src="/images/logo.svg" layout='fixed' width={40} height={40} alt='Logo-Object' />
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <div className="col-span-3  lg:pr-96 md:pr-28">
@@ -124,10 +124,9 @@ export default function Gallery({ images }: { images: Image[] }) {
 
 function BlurImage({ image }: { image: Image }) {
   const [isLoading, setLoading] = useState(true)
-
   return (
     <a  className="group">
-      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+      <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8 cursor-pointer"> 
         <Image
           alt=""
           src={image.imageSrc}
