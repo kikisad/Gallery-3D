@@ -51,7 +51,7 @@ export default function Gallery({ images }: { images: Image[] }) {
             <h3 className="mt-4 text-xs text-gray-500 "> Last update : 26 Avril 2022 </h3>
           </div>
           <div className='place-self-end'>
-            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 05/30</h3>
+            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 09/??</h3>
           </div>
 
         </div>
@@ -86,7 +86,7 @@ export default function Gallery({ images }: { images: Image[] }) {
           </div>
           <div className='place-self-end'>
             <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3"> 
-              DOWNLOAD
+              Coming soon
             </button>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function Gallery({ images }: { images: Image[] }) {
           </div>
           <div className='place-self-end'>
             <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3	"> 
-              DONATE
+              Coming soon
             </button>
           </div>
         </div>
