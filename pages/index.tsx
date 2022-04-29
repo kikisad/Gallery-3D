@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import logo from '../public/images/logo.png'
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
 import Head from 'next/head';
@@ -38,7 +39,7 @@ export default function Gallery({ images }: { images: Image[] }) {
 
       <div className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-          <Image src={'/images/logo.png'} layout='fixed' width={55} height={55} alt='Logo-Object' />
+          <Image src={logo} layout='fixed' width={55} height={55} alt='Logo-Object' />
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <div className="col-span-3  lg:pr-96 md:pr-28">
@@ -73,7 +74,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         ))}
       </div>
       <div>
-        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5©xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em]   py-28">Create a first-class social post, landing page or your next presentation with these high quality pack in the blink of an eye.</h2>
+        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em]   py-28">Create a first-class social post, landing page or your next presentation with these high quality pack in the blink of an eye.</h2>
       </div>
       <div className="py-4 w-5/6 md:w-4/6 m-auto">
         <div >
