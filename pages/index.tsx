@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import logo from '../public/images/logo.png'
 import { useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
 import Head from 'next/head';
@@ -39,7 +38,7 @@ export default function Gallery({ images }: { images: Image[] }) {
 
       <div className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-          <Image src={logo} layout='fixed' width={55} height={55} alt='Logo-Object' />
+          <Image src='/images/logo.png' layout='fixed' width={55} height={55} alt='Logo-Object' />
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <div className="col-span-3  lg:pr-96 md:pr-28">
@@ -49,10 +48,10 @@ export default function Gallery({ images }: { images: Image[] }) {
         </div>
         <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end">
           <div className=''>
-            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 26 Avril 2022 </h3>
+            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 01 Mai 2022 </h3>
           </div>
           <div className='place-self-end'>
-            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 09/??</h3>
+            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 16/??</h3>
           </div>
 
         </div>
