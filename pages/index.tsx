@@ -38,7 +38,7 @@ export default function Gallery({ images }: { images: Image[] }) {
 
       <div className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-          <Image src='/images/logo.png' layout='fixed' width={55} height={55} alt='Logo-Object' />
+          <Image src='https://ftvqcjbvghbzcffmcsaq.supabase.co/storage/v1/object/public/images/Logo.svg' loading='eager' layout='fixed' width={55} height={55} alt='Logo-Object' />
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <div className="col-span-3  lg:pr-96 md:pr-28">

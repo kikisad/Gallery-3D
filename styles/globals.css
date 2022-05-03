@@ -16,7 +16,9 @@
   }
 
 .bg-gradient {
-  background: linear-gradient(109.23deg, #B4C6F9 -5.98%, #E6E6E6 42.17%, #FFE8BA 62.43%, #C5B18A 126.5%, #FFAA00 126.52%);
+  background: linear-gradient(109.23deg, #B4C6F9 -10%, #E6E6E6 42.17%, #FFE8BA 62.43%, #C5B18A 126.5%, #FFAA00 126.52%);
+  
+
 opacity: 0.9;
     background-size: 600% 600%;
 
