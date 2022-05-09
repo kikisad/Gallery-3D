@@ -77,10 +77,10 @@ export default function Gallery({ images }: { images: Image[] }) {
         </div>
         <motion.div variants={fadeInUp} className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end">
           <div className=''>
-            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 03 Mai 2022 </h3>
+            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 09 Mai 2022 </h3>
           </div>
           <div className='place-self-end'>
-            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 25/??</h3>
+            <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 32/30 🎉🎉🎉</h3>
           </div>
         </motion.div>
       </motion.div>
