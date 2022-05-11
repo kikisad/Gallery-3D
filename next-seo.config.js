@@ -14,7 +14,7 @@ const SEO = {
     description,
     images: [
       {
-        url: 'https://www.object.wtf/og.png',
+        url: 'https://www.object.wtf/Og.png',
         alt: title,
         width: 1280,
         height: 720,

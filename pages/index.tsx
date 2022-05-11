@@ -65,7 +65,7 @@ export default function Gallery({ images }: { images: Image[] }) {
   return (   
     <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} className="mx-auto max-w-1xl py-8 px-4 sm:pb-24 sm:px-6 lg:max-w-[100%] lg:px-8 ">
 
-      <motion.div variants={stagger} className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient">
+      <motion.div variants={stagger} className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient ">
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
           <Image src='https://ftvqcjbvghbzcffmcsaq.supabase.co/storage/v1/object/public/images/Logo.svg' loading='eager' layout='fixed' width={55} height={55} alt='Logo-Object' />
         </div>
