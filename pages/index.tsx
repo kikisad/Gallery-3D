@@ -71,13 +71,13 @@ export default function Gallery({ images }: { images: Image[] }) {
         </div>
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <motion.div variants={fadeInUp} className="col-span-3 lg:pr-96 md:pr-28">
-          <h1 className="mt-4 lg:text-6xl md:text-5xl sm:text-4xl text-2xl text-gray-700 antialiased">Pretty modeste 3D illustrations library to bring your design to the next level.</h1>
-          <h2 className="mt-4 text-base lg:text-lg text-gray-700 font-sans ">Level-up your design story, with fancy and colorful illustration for your next project. All these graphics could be useful for finance app, presentation, service and many more. Object is growing library unmade and <a className=" text-gray-900 underline">free until I finish it !</a> Enjoy </h2>
+          <h1 className="mt-4 lg:text-6xl md:text-5xl sm:text-4xl text-2xl text-gray-700 antialiased">A pretty nice library of modest 3D illustrations to take your design to the next level.</h1>
+          <h2 className="mt-4 text-base lg:text-lg text-gray-700 font-sans ">Enhance your design story, with fancy and colorful illustrations for your next project. All these graphics can be useful for financial applications, presentations, services and many more. The item is a growing library, unmade and free until I finish it ! Use it to create even more. </h2>
           </motion.div>
         </div>
         <motion.div variants={fadeInUp} className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end">
           <div className=''>
-            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 09 may 2022 </h3>
+            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 11 may 2022 </h3>
           </div>
           <div className='place-self-end'>
             <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 32/30 🎉🎉🎉</h3>
@@ -110,7 +110,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  pt-5">
           <div className='flex flex-col'>
             <h3 className="mt-4 text-xl text-gray-700 "> Free for now * 
-            <p className="mt-4 text-sm">Only 3000x3000 png files, blender files will arrive later</p></h3>
+            <p className="mt-4 text-sm">Only png files 3000x3000, blender files will come later.</p></h3>
           </div>
           <div className='place-self-end'>
             <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3"> 
@@ -126,7 +126,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  pt-5">
           <div className='flex flex-col'>
             <h3 className="mt-4 text-xl text-gray-700 "> Support the project * 
-            <p className="mt-4 text-sm"> Beacause I made your project even more extrodinary </p></h3>
+            <p className="mt-4 text-sm"> Because I made your project even more extraordinary. </p></h3>
           </div>
           <div className='place-self-end'>
             <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3	"> 
@@ -141,7 +141,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         </div>
         <div className="grid grid-cols-1 grid-rows-1 w-full items-end  pt-5">
           <div className='flex flex-col'>
-            <h6 className="mt-4 text-sm text-gray-500 "> A project made with love by <a className="text-xs text-gray-900  hover:underline" href='https://www.killiancartignies.com/'>Killian Cartignies.</a> Special thanks to the <a className="text-xs text-gray-900  hover:underline" href='https://pangrampangram.com/'>Pangrampangram Foundry </a> for the font : EditorialNew </h6>
+            <h6 className="mt-4 text-sm text-gray-500 "> A project lovingly realized by <a className="text-xs text-gray-900  hover:underline" href='https://www.killiancartignies.com/'>Killian Cartignies.</a> Thanks to the <a className="text-xs text-gray-900  hover:underline" href='https://pangrampangram.com/'>Pangrampangram Foundry </a> for the font : Editorial New </h6>
             <h4 className="mt-4 text-sm text-gray-500 "> © 2022 All Rights Reserved </h4>
           </div>         
         </div>
