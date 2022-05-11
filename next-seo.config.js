@@ -1,6 +1,6 @@
 const title =
-  'Object – Pretty modeste 3D illustrations library to bring your design to the next level.'
-const description = 'Level-up your design story, with fancy and colorful illustration for your next project. All these graphics could be useful for finance app, presentation, service and product. Object is growing library unmade and free until I finish it!'
+  'Object.Wtf – A nice library of modest 3D illustrations to take your design to the next level.'
+const description = 'Enhance your design story, with fancy and colorful illustrations for your next project. All these graphics can be useful for financial applications, presentations, services and many more.'
 
 const SEO = {
   title,
