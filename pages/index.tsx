@@ -101,7 +101,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         ))}
       </motion.div>
       <div>
-        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em]   py-28">Create a first-class social post, landing page or your next presentation with these high quality pack in the blink of an eye.</h2>
+        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em]   py-28">Create a social post, landing page or your next top-notch presentation in a snap with these high-quality packs.</h2>
       </div>
       <div className="py-4 w-5/6 md:w-4/6 m-auto">
         <div >
