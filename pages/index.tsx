@@ -109,7 +109,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         </div>
         <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  pt-5">
           <div className='flex flex-col'>
-            <h3 className="mt-4 text-xl text-gray-700 "> Free for now * 
+            <h3 className="mt-4 text-xl text-gray-700 "> Free for now and Forever * 
             <p className="mt-4 text-sm">Only png files 3000x3000, blender files will come later.</p></h3>
           </div>
           <div className='place-self-end'>
