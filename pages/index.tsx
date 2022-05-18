@@ -72,7 +72,7 @@ export default function Gallery({ images }: { images: Image[] }) {
         <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
           <motion.div variants={fadeInUp} className="col-span-3 lg:pr-90 md:pr-28">
           <h1 className="mt-4 lg:text-6xl md:text-5xl sm:text-4xl text-2xl text-gray-700 antialiased">A nice library of modest 3D illustrations <br />  to take your design to the next level.</h1>
-          <h2 className="mt-4 text-base lg:text-lg text-gray-700 font-sans ">Enhance your design story, with fancy and colorful illustrations for your next project. All these graphics can be useful for financial applications, presentations, services and many more. Object.wtf is a growing library, unmade and free until I finish it ! So use it to create even more. </h2>
+          <h2 className="mt-4 text-base lg:text-lg text-gray-700 font-sans ">Enhance your design story, with fancy and colorful illustrations for your next project. All these graphics can be useful for financial applications, presentations, services and many more. Object.wtf is a growing library, unmade and free for now and Forever ! So use it to create even more. </h2>
           </motion.div>
         </div>
         <motion.div variants={fadeInUp} className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end">
