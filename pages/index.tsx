@@ -113,9 +113,7 @@ export default function Gallery({ images }: { images: Image[] }) {
             <p className="mt-4 text-sm">Only png files 3000x3000, blender files will come later.</p></h3>
           </div>
           <div className='place-self-end'>
-            <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3"> 
-              Coming soon
-            </button>
+          <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3	" href="https://www.dropbox.com/s/lus1r0hlbydrl0m/3D_illustrations_Object_Wtf_V0.1.zip?dl=0" target="_blank"> Get it for free </a>  
           </div>
         </div>
       </div>
@@ -129,9 +127,8 @@ export default function Gallery({ images }: { images: Image[] }) {
             <p className="mt-4 text-sm"> Because I made your project even more extraordinary. </p></h3>
           </div>
           <div className='place-self-end'>
-            <button type="button" className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3	"> 
-              Coming soon
-            </button>
+          <script src="https://gumroad.com/js/gumroad.js"></script>
+            <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none leading-3	" href="https://kikisad.gumroad.com/l/zlgjiw?wanted=true"> Support the project</a>  
           </div>
         </div>
       </div>
