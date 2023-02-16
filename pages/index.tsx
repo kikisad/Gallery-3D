@@ -64,20 +64,23 @@ const stagger = {
 export default function Gallery({ images }: { images: Image[] }) {
   return (   
     <motion.div initial='initial' animate='animate' exit={{ opacity: 0 }} className="mx-auto max-w-1xl py-8 px-4 sm:pb-24 sm:px-6 lg:max-w-[100%] lg:px-8 ">
-
-      <motion.div variants={stagger} className="w-full h-[33rem] md:h-[46rem] mb-6 rounded-md p-8 bg-gradient ">
-        <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 ">
-          <Image src='https://ftvqcjbvghbzcffmcsaq.supabase.co/storage/v1/object/public/images/Logo.svg' loading='eager' layout='fixed' width={55} height={55} alt='Logo-Object' />
+      <motion.div variants={stagger} className="w-full  mb-6 rounded-md p-8 bg-gradient ">
+        <div className="grid grid-cols-3 grid-rows-1 w-full  ">
+          <Image src='https://ftvqcjbvghbzcffmcsaq.supabase.co/storage/v1/object/public/images/Logo.svg' loading='eager' layout='fixed' width={40} height={40} alt='Logo-Object' />
         </div>
-        <div className="grid grid-cols-3 grid-rows-1 w-full h-2/6 items-center ">
+        <div className="grid grid-cols-3 grid-rows-1 w-full pt-52 items-center ">
           <motion.div variants={fadeInUp} className="col-span-3 lg:pr-90 md:pr-28">
-          <h1 className="mt-4 lg:text-6xl md:text-5xl sm:text-4xl text-2xl text-gray-700 antialiased">A nice library of modest 3D illustrations <br />  to take your design to the next level.</h1>
-          <h2 className="mt-4 text-base lg:text-lg text-gray-700 font-sans ">Enhance your design story, with fancy and colorful illustrations for your next project. All these graphics can be useful for financial applications, presentations, services and many more. Object.wtf is a growing library, unmade and free for now and Forever ! So use it to create even more. </h2>
+          <h1 className="mt-4 lg:text-5xl md:text-4xl sm:text-4xl text-2xl text-gray-700 antialiased">
+            Creative 3D object for your next design.
+          </h1>
+          <h2 className="mt-1 text-sm lg:text-lg text-gray-700 font-sans pb-4">
+            Find and download the best high-quality 3D, for your next Linkedin post.
+          </h2>
           </motion.div>
         </div>
-        <motion.div variants={fadeInUp} className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end">
+        <motion.div variants={fadeInUp} className="grid grid-cols-2 grid-rows-1 w-full pb-2 items-end">
           <div className=''>
-            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 16 may 2022 </h3>
+            <h3 className="mt-4 text-xs text-gray-500 "> Last update : 15 February 2023 </h3>
           </div>
           <div className='place-self-end'>
             <h3 className="mt-4 text-xs text-gray-500 ">Number of objects : 37/30 </h3>
@@ -101,45 +104,46 @@ export default function Gallery({ images }: { images: Image[] }) {
         ))}
       </motion.div>
       <div>
-        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em]   py-28">Create a social post, landing page or your next top-notch presentation in a snap with these high-quality packs.</h2>
+        <h2 className="mt-4 text-2xl md:text-3xl lg:text-5xl text-gray-700 text-center px-[1em] md:px-[3em] lg:px-[5em] leading-loose py-28">Create a social post, landing page or your next top-notch presentation in a snap with these high-quality packs.</h2>
       </div>
-      <div className="py-4 w-5/6 md:w-4/6 m-auto">
+      <div className=" w-5/6 md:w-4/6 m-auto">
         <div >
           <div className="border-t border-gray-300 p-auto"></div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  pt-5">
+        <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  py-10">
           <div className='flex flex-col'>
-            <h3 className="mt-4 text-xl text-gray-700 "> Free for now and Forever * 
-            <p className="mt-4 text-sm">Only png files 3000x3000, blender files will come later.</p></h3>
+            <h3 className="mt-2 text-xl text-gray-700 "> Free for now and Forever 
+            <p className="mt-1 text-sm">PNG files 3000x3000.</p></h3>
           </div>
           <div className='place-self-end'>
-          <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-900 focus:outline-none leading-3	" href="https://www.dropbox.com/s/lus1r0hlbydrl0m/3D_illustrations_Object_Wtf_V0.1.zip?dl=0" target="_blank"> Get it for free </a>  
+            <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+            <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-900 focus:outline-none leading-3 lemonsqueezy-button	" href="https://killiancartignies.lemonsqueezy.com/checkout/buy/bd94d87e-b7f2-4e1c-a117-50fb7704c9ac?embed=1&discount=0"> Get it for free</a>
           </div>
         </div>
       </div>
-      <div className="pt-5 py-4 w-5/6 md:w-4/6 m-auto">
+      <div className="w-5/6 md:w-4/6 m-auto">
         <div >
           <div className="border-t border-gray-300 p-auto"></div>
         </div>
-        <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end  pt-5">
+        <div className="grid grid-cols-2 grid-rows-1 w-full h-2/6 items-end py-10">
           <div className='flex flex-col'>
-            <h3 className="mt-4 text-xl text-gray-700 "> Support the project * 
-            <p className="mt-4 text-sm"> Because I made your project even more extraordinary. </p></h3>
+            <h3 className="text-xl text-gray-700 "> Support the project 
+            <p className="mt-1 text-sm"> Because I made your project even more extraordinary. </p></h3>
           </div>
           <div className='place-self-end'>
-          <script src="https://gumroad.com/js/gumroad.js"></script>
-            <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-900 focus:outline-none leading-3	" href="https://kikisad.gumroad.com/l/zlgjiw?wanted=true"> Support the project</a>  
+            <script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+            <a className="inline-flex items-center px-9 py-5 border border-gray-300 rounded-full text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-900 focus:outline-none leading-3 lemonsqueezy-button	" href="https://killiancartignies.lemonsqueezy.com/checkout/buy/bd94d87e-b7f2-4e1c-a117-50fb7704c9ac?embed=1&discount=0"> Support the project</a>
           </div>
         </div>
       </div>
-      <div className="pt-5 py-4 w-5/6 md:w-4/6 m-auto">
+      <div className=" w-5/6 md:w-4/6 m-auto">
         <div >
           <div className="border-t border-gray-300 p-auto"></div>
         </div>
         <div className="grid grid-cols-1 grid-rows-1 w-full items-end  pt-5">
           <div className='flex flex-col'>
-            <h6 className="mt-4 text-sm text-gray-500 "> A project lovingly realized by <a className="text-xs text-gray-900  hover:underline" href='https://www.killiancartignies.com/'>Killian Cartignies.</a> Thanks to the <a className="text-xs text-gray-900  hover:underline" href='https://pangrampangram.com/'>Pangrampangram Foundry </a> for the font : Editorial New </h6>
-            <h4 className="mt-4 text-sm text-gray-500 "> © 2022 All Rights Reserved </h4>
+            <h6 className="mt-4 text-sm text-gray-500 "> A project lovingly realized by <a className="text-sm text-gray-900  hover:underline" href='https://www.killiancartignies.com/'>Killian Cartignies.</a> Thanks to the <a className="text-sm text-gray-900  hover:underline" href='https://pangrampangram.com/'>Pangrampangram Foundry </a> for the font : Editorial New </h6>
+            <h4 className="mt-4 text-xs text-gray-400 "> © 2023 All Rights Reserved </h4>
           </div>         
         </div>
       </div>
@@ -152,7 +156,7 @@ function BlurImage({ image }: { image: Image }) {
   return (
     <a  className="group">
       <motion.div variants={fadeInUp}>
-        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8 cursor-pointer"> 
+        <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gradient xl:aspect-w-7 xl:aspect-h-8 cursor-pointer"> 
               <Image
                 alt=""
                 src={image.imageSrc}
